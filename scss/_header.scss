@@ -1,0 +1,41 @@
+header {
+  margin-top: 4rem;
+  width: 100%;
+  height: 6.4rem;
+  display: flex;
+  .container {
+    @include flex(row, center, space-between);
+  }
+  nav {
+    display: flex;
+    ul {
+      display: flex;
+
+      li {
+        &:not(:last-child) {
+          margin-right: 4.5rem;
+        }
+        a {
+          display: flex;
+          font-weight: bold;
+          font-size: 1.8rem;
+          line-height: 150%;
+          color: $nav-select;
+        }
+      }
+    }
+  }
+  .btn-mobile {
+    display: none;
+  }
+  @include responsive(480px) {
+    ul {
+      li {
+        display: none;
+      }
+    }
+    .btn-mobile {
+      display: block;
+    }
+  }
+}
