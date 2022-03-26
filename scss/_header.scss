@@ -17,10 +17,10 @@ header {
         }
         a {
           display: flex;
-          font-weight: bold;
+          font-weight: 600;
           font-size: 1.8rem;
           line-height: 150%;
-          color: $nav-select;
+          color: $nav-no-select;
         }
       }
     }

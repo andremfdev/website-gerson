@@ -5,9 +5,9 @@
     max-width: 100.8rem;
     padding: 0;
     .info-about {
-        width: 100%;
+      width: 100%;
       display: flex;
-align-items: flex-end;
+      align-items: flex-end;
       justify-content: space-between;
       .img-gerson {
         max-width: 38.4rem;
@@ -19,7 +19,7 @@ align-items: flex-end;
       .text-about {
         max-width: 52rem;
         h3 {
-            margin-bottom: 2.2rem;
+          margin-bottom: 2.2rem;
           font-weight: 600;
           font-size: 3.2rem;
           line-height: 130%;
@@ -33,4 +33,86 @@ align-items: flex-end;
       }
     }
   }
+}
+
+.s-social {
+  padding-top: 10rem;
+  .container {
+    width: 100%;
+    max-width: 100.8rem;
+    padding: 0;
+    display: flex;
+    .title-primary {
+      max-width: 41.5rem;
+      h1 {
+        font-weight: 700;
+        font-size: 7.2rem;
+        line-height: 130%;
+        color: rgba(56, 56, 56, 0.1);
+      }
+    }
+    .title-secondary {
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      margin-left: 7.7rem;
+      h3 {
+        font-weight: 600;
+        font-size: 3.2rem;
+        line-height: 130%;
+        color: $title-resume-projects;
+        margin-bottom: 4.4rem;
+      }
+      .social-work {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        ul {
+          li {
+            a {
+              display: flex;
+              align-items: flex-start;
+              gap: 3.2rem;
+              span {
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 130%;
+                color: $title;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .social-media {
+    padding-top: 10.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5.9rem;
+    p {
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 130%;
+      color: $sub-title-home;
+    }
+    ul {
+      li {
+        a {
+          padding-top: 3.5rem;
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+          span {
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 130%;
+            color: $sub-title-resume;
+            text-decoration-line: underline;
+        }
+      }
+    }
+  }
+}
 }
