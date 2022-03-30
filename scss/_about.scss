@@ -80,6 +80,9 @@
                 color: $title;
               }
             }
+            .link-under {
+              text-decoration-line: underline;
+            }
           }
         }
       }
@@ -110,9 +113,9 @@
             line-height: 130%;
             color: $sub-title-resume;
             text-decoration-line: underline;
+          }
         }
       }
     }
   }
-}
 }
