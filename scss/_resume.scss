@@ -1,0 +1,80 @@
+.s-resume {
+    padding-top: 17.6rem;
+    .container {
+        width: 100%;
+        max-width: 86.5rem;
+        padding: 0;
+        .title-resume{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8.7rem;
+            .name-resume{
+                font-weight: 800;
+                font-size: 2.4rem;
+                line-height: 130%;
+                color: $title-resume-projects;
+            }
+            .contact-resume{
+                display: flex;
+                align-items: center;
+                gap: 2.3rem;
+                ul {
+                    li {
+                        a {
+                            display: flex;
+                            align-items: center;
+                            gap: 0.8rem;
+                            span {
+                                font-weight: 500;
+                                font-size: 1.4rem;
+                                line-height: 130%;
+                                color: $title;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .info-resume {
+            .education {
+                padding-top: 1.2rem;
+                h3 {
+                    margin-bottom: 1.6rem;
+                }
+                .title-info {
+                    font-weight: 800;
+                    font-size: 2.4rem;
+                    line-height: 130%;
+                    color: $title-resume-projects;
+                }
+                .sub-title-info {
+                    :last-child{
+                        margin-bottom: 4rem;
+                        }
+                    h4 {
+                        font-weight: 600;
+                        font-size: 1.8rem;
+                        line-height: 130%;
+                        color: $sub-title-resume;
+                        margin-bottom: 0.8rem;
+                    }
+                    span {
+                        font-weight: 500;
+                        font-size: 1.6rem;
+                        line-height: 130%;
+                        color: $span-resume-color;
+                    }
+                    p {
+                        padding-top: 1.2rem;
+                        font-weight: 500;
+                        font-size: 1.6rem;
+                        line-height: 130%;
+                        color: $title-resume-projects;
+                           
+                    }
+                }
+            }
+        }
+    }
+}
