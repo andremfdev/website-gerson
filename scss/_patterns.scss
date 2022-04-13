@@ -1,0 +1,45 @@
+.info-resume {
+    .details {
+      padding-top: 1.2rem;
+      h3 {
+        margin-bottom: 1.6rem;
+      }
+      .education,
+      .contact-details,
+      .work-experience, .skillset {
+        .title-info {
+          font-weight: 800;
+          font-size: 2.4rem;
+          line-height: 130%;
+          color: $title-resume-projects;
+        }
+        .sub-title-info {
+          :not(:first-child) {
+            margin-bottom: 4rem;
+          }
+          h4 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 130%;
+            color: $sub-title-resume;
+            margin-bottom: 0.8rem;
+          }
+          span {
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 130%;
+            color: $span-resume-color;
+          }
+          p {
+            margin-top: 1.2rem;
+            margin-bottom: 4rem;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 130%;
+            color: $title-resume-projects;
+          }
+        }
+        
+      }
+    }
+  }
