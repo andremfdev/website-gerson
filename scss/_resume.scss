@@ -36,7 +36,48 @@
         }
       }
     }
-    
+    .info-resume {
+      .details {
+        display: flex;
+        gap: 8.9rem;
+        .area-left {
+          max-width: 22.4rem;
+          .education {
+            margin-right: -0.1rem;
+          }
+        }
+        .area-right {
+          max-width: 55.2rem;
+          .work-experience {
+            .sub-title-info {
+              h4 {
+                margin-bottom: 1.4rem;
+              }
+              p {
+                margin-bottom: 5.6rem;
+                margin-top: 1.6rem;
+              }
+            }
+          }
+          .skillset {
+            .tools {
+              margin-bottom: 37px;
+            }
+            .sub-title-info {
+              p {
+                margin: 0;
+                padding: 0;
+              }
+              .skillset-details {
+                display: flex;
+                align-items: center;
+                margin: 0 0rem 0.3rem 0;
+                gap: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
-  
 }
