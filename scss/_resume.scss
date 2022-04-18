@@ -47,11 +47,55 @@
           max-width: 22.4rem;
           .education {
             margin-right: -0.1rem;
+            .title-info {
+              h3 {
+                position: relative;
+                &:before {
+                  content: "";
+                  position: absolute;
+                  right: 154px;
+                  bottom: 40px;
+                  width: 40px;
+                  height: 3px;
+                  background-color: $title-resume-projects;
+                }
+              }
+            }
+          }
+          .contact-details {
+            .title-info {
+              h3 {
+                position: relative;
+                &:before {
+                  content: "";
+                  position: absolute;
+                  right: 154px;
+                  bottom: 40px;
+                  width: 40px;
+                  height: 3px;
+                  background-color: $title-resume-projects;
+                }
+              }
+            }
           }
         }
         .area-right {
           max-width: 55.2rem;
           .work-experience {
+            .title-info {
+              h3 {
+                position: relative;
+                &:before {
+                  content: "";
+                  position: absolute;
+                  right: 511px;
+                  bottom: 40px;
+                  width: 40px;
+                  height: 3px;
+                  background-color: $title-resume-projects;
+                }
+              }
+            }
             .sub-title-info {
               h4 {
                 margin-bottom: 1.4rem;
