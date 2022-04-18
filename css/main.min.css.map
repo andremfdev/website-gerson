@@ -12,7 +12,8 @@
         "../scss/_patterns.scss",
         "../scss/_resume.scss",
         "../scss/_about.scss",
-        "../scss/_home.scss"
+        "../scss/_home.scss",
+        "../scss/_neo.scss"
     ],
     "names": [],
     "file": "main.min.css"
