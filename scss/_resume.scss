@@ -10,10 +10,12 @@
       justify-content: space-between;
       margin-bottom: 8.7rem;
       .name-resume {
+       h3 {
         font-weight: 800;
         font-size: 2.4rem;
         line-height: 130%;
         color: $title-resume-projects;
+       }
       }
       .contact-resume {
         display: flex;
@@ -40,6 +42,7 @@
       .details {
         display: flex;
         gap: 8.9rem;
+        margin-bottom: 9.6rem;
         .area-left {
           max-width: 22.4rem;
           .education {
