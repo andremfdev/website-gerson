@@ -53,10 +53,10 @@
                 &:before {
                   content: "";
                   position: absolute;
-                  right: 154px;
-                  bottom: 40px;
-                  width: 40px;
-                  height: 3px;
+                  right: 15.4rem;
+                  bottom: 4rem;
+                  width: 4rem;
+                  height: 0.3rem;
                   background-color: $title-resume-projects;
                 }
               }
@@ -69,10 +69,10 @@
                 &:before {
                   content: "";
                   position: absolute;
-                  right: 154px;
-                  bottom: 40px;
-                  width: 40px;
-                  height: 3px;
+                  right: 15.3rem;
+                  bottom: 4rem;
+                  width: 4rem;
+                  height: 0.3rem;
                   background-color: $title-resume-projects;
                 }
               }
@@ -88,10 +88,10 @@
                 &:before {
                   content: "";
                   position: absolute;
-                  right: 511px;
-                  bottom: 40px;
-                  width: 40px;
-                  height: 3px;
+                  right: 51.1rem;
+                  bottom: 4rem;
+                  width: 4rem;
+                  height: 0.3rem;
                   background-color: $title-resume-projects;
                 }
               }
@@ -107,6 +107,20 @@
             }
           }
           .skillset {
+            .title-info {
+              h3 {
+                position: relative;
+                &:before {
+                  content: "";
+                  position: absolute;
+                  right: 51.1rem;
+                  bottom: 4rem;
+                  width: 4rem;
+                  height: 0.3rem;
+                  background-color: $title-resume-projects;
+                }
+              }
+            }
             .tools {
               margin-bottom: 37px;
             }
@@ -118,7 +132,7 @@
               .skillset-details {
                 display: flex;
                 align-items: center;
-                margin: 0 0rem 0.3rem 0;
+                margin: 0 0rem 0.2rem 0;
                 gap: 1rem;
               }
             }
