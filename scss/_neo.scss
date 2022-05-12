@@ -1,12 +1,44 @@
-header {
-    margin-top: 0;
-    width: 100%;
-    max-width: 4600px;
-    height: 325px;
-    overflow: hidden;
-    .banner {
-        margin-right: auto;
-        margin-left: auto;
-        background-color: transparent;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+}
+
+.topo img {
+  position: absolute;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  background-color: transparent;
+  .logotipo {
+    background-color: #28b431;
+    img {
+      background-color: #28b431;
     }
+  }
+  .links ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    background-color: #28b431;
+    li {
+      background-color: #28b431;
+    }
+    a {
+      background-color: #28b431;
+    }
+  }
 }
