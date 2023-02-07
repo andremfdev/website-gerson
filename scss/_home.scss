@@ -6,100 +6,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .txt-hero {
-      margin-bottom: 4rem;
-      .txt-primary {
+    .title-hero {
+      h1 {
         font-weight: 600;
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 130%;
         color: $title;
-        text-align: center;
+        margin-bottom: 0.8rem;
       }
-      .txt-change {
-        display: flex;
-        p {
-          font-weight: 500;
-          font-size: 2.4rem;
-          line-height: 133%;
-          color: $sub-title-home;
-          text-align: center;
-        }
-        .txt-secondary {
-          display: flex;
-          h3 {
-            font-weight: 500;
-            font-size: 2.4rem;
-            line-height: 133%;
-            color: $sub-title-home;
-            text-align: center;
-          }
-          .option {
-            margin-left: 0.9rem;
-            height: 3rem;
-            line-height: 3rem;
-            overflow: hidden;
-          }
-          .option li {
-            list-style: none;
-            color: $sub-title-resume;
-            font-size: 2.4rem;
-            font-weight: 500;
-            position: relative;
-            top: 0;
-            animation: slide 12s steps(4) infinite;
-          }
-          @keyframes slide {
-            100% {
-              top: -12rem;
-            }
-          }
-          .option li span {
-            position: relative;
-            margin: 0.5rem 0;
-            line-height: 3rem;
-          }
-          .option li span:after {
-            content: "design";
-            color: $sub-title-home;
-            position: absolute;
-            padding-left: 0.2rem;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #f9f9f9;
-            border-left: 0.2rem solid $sub-title-resume;
-            animation: typing 3s steps(40) infinite;
-          }
-          @keyframes typing {
-            40%,
-            60% {
-              left: calc(100% + 0.2rem);
-            }
-            100% {
-              left: 0;
-            }
-          }
-        }
-        // .textFixed {
-        //   h3 {
-        //     font-weight: 500;
-        //     font-size: 2.4rem;
-        //     line-height: 133%;
-        //     color: $sub-title-home;
-        //     text-align: center;
-        //   }
-        // }
-      }
-
-      p {
-        color: $sub-title-home;
-
+    }
+    .text-change {
+      margin-bottom: 0.8rem;
+      h3 {
         font-weight: 500;
-        font-size: 1.8rem;
-        line-height: 150%;
-        span {
-          color: $sub-title-resume;
-        }
+        font-size: 2.4rem;
+        line-height: 133%;
+        color: $sub-title-home;
+      }
+      span {
+        list-style: none;
+        color: $sub-title-resume;
+        font-size: 2.4rem;
+        font-weight: 500;
+      }
+      .typed-cursor {
+        animation: typedjsBlink 0.9s infinite;
+        -webkit-animation: typedjsBlink 0.9s infinite;
+      }
+    }
+    span {
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: $sub-title-home;
+      margin-bottom: 4.1rem;
+      a {
+        color: $sub-title-resume;
       }
     }
     .btn-hero {
